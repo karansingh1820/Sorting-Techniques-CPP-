@@ -58,24 +58,6 @@ void merge_Sort(int input[],int size)
 {
     return helper(input,0,size);
 }
-// int main()
-// {
-
-//     int length;
-//     cout<<"Enter array size: ";
-//     cin>>length;
-//     int *input=new int [length];
-//     for(int i=0;i<length;i++)
-//     {
-//         cin>>input[i];
-//     }
-//     merge_Sort(input,length);
-//     for(int i=0;i<length;i++)
-//     {
-//         cout<<input[i]<<" ";
-//     }
-//     return 0;
-// }
 void print(int a[],int n)
 {
     int t;
