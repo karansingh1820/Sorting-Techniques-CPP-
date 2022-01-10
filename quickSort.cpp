@@ -29,7 +29,7 @@ int partition(int a[], int lb, int ub)
         }
         
     }
-    swap(&a[lb], &a[ub]);
+    swap(&a[lb], &a[end]);
     return end;
 }
 void quick_Sort(int a[],int lb,int ub)
